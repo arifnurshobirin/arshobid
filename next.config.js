@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = {
+const nextConfig = {
+  output: 'export',
   images: {
-    domains: ['sumitdey.netlify.app'],
+    unoptimized: true,
   },
+  reactStrictMode: true,
+  swcMinify: true,
 };
+
+module.exports = nextConfig;

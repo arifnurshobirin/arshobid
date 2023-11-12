@@ -26,6 +26,24 @@ module.exports = {
       colors: {
         green: {
           DEFAULT: '#00f260',
+          50: '#30AF5B',
+          90: '#292C27',
+        },
+        gray: {
+          10: '#EEEEEE',
+          20: '#A2A2A2',
+          30: '#7B7B7B',
+          50: '#585858',
+          90: '#141414',
+        },
+        orange: {
+          50: '#FF814C',
+        },
+        blue: {
+          70: '#021639',
+        },
+        yellow: {
+          50: '#FEC601',
         },
         dark: {
           DEFAULT: '#010101',
@@ -69,7 +87,23 @@ module.exports = {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
+      backgroundImage: {
+        'bg-img-1': "url('/images/home/img-1.png')",
+        'bg-img-2': "url('/images/home/img-2.png')",
+        'feature-bg': "url('/images/home/feature-bg.png')",
+        pattern: "url('/images/home/pattern.png')",
+        'pattern-2': "url('/images/home/pattern-bg.png')",
+      },
+      screens: {
+        xs: '400px',
+        '3xl': '1680px',
+        '4xl': '2200px',
+      },
+      maxWidth: {
+        '10xl': '1512px',
+      },
       borderRadius: {
+        '5xl': '40px',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
